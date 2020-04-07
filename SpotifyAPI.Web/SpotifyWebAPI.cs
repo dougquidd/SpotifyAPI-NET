@@ -12,7 +12,7 @@ using SpotifyAPI.Web.Models;
 namespace SpotifyAPI.Web
 {
   // ReSharper disable once InconsistentNaming
-  public sealed class SpotifyWebAPI : IDisposable
+  public sealed class SpotifyWebAPI : IDisposable, ISpotifyWebAPI
   {
     private readonly SpotifyWebBuilder _builder;
 
